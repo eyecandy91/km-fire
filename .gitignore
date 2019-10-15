@@ -1,0 +1,7 @@
+node_modules
+.github/*
+js-dev
+.vscode/*
+debug.log
+build/
+template-parts/test.php
