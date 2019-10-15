@@ -29,7 +29,12 @@ $google      = myprefix_get_theme_option('ga');
         <link rel="preload" href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" as="style"
             onload="this.onload=null;this.rel='stylesheet'">
         <noscript>
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap"></noscript>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap">
+            </noscript>
+        <link rel="preload" href="<?php echo get_template_directory_uri()?>/css/aos.css" as="style"
+            onload="this.onload=null;this.rel='stylesheet'">
+        <noscript>
+            <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/css/aos.css"></noscript>
         <?php if (isset($google)) { ?>
         <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $google ?>"></script>
         <script>
@@ -156,7 +161,7 @@ $google      = myprefix_get_theme_option('ga');
     <body <?php body_class();?>>
         <div class="site">
 
-                <?php get_template_part('template-parts/nav');?>
+            <?php get_template_part('template-parts/nav');?>
             <!-- <div class="container"> -->
 
-                <!-- <section class="section"> -->
+            <!-- <section class="section"> -->
