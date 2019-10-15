@@ -145,7 +145,7 @@ function _ez_scripts() {
 	// 	wp_enqueue_script( 'comment-reply' );
 	// }
 	wp_enqueue_script( 'scripts', get_template_directory_uri() . '/js/scripts.js', array(), null, true );
-
+	wp_enqueue_script('aos', get_template_directory_uri() . '/js/aos.js', array(), '1', true);
 	wp_enqueue_script('jquery', get_template_directory_uri() . '/js/jquery-2.2.4.min.js', array(), null, true);
 }
 add_action( 'wp_enqueue_scripts', '_ez_scripts' );
