@@ -2,6 +2,7 @@
 $s2_title = get_sub_field('section_2_title');
 $s2_content = get_sub_field('section_2_content');
 $s2_img = get_sub_field('section_2_img');
+$s2_link = get_sub_field('section_2_link');
 ?>
 <section class="hero is-light dotted is-medium slant grey top left">
     <div class="hero-body">
@@ -28,10 +29,12 @@ $s2_img = get_sub_field('section_2_img');
                                 <?php echo $s2_content ?>
                             </p>
                         <?php endif;?>
+                        <?php if (isset($s2_link)): ?>
                         <div class="intro-buttons">
-                            <a href="<?php the_field('btn_link');?>" class="button is-link is-outlined is-rounded is-medium is-uppercase">
+                            <a href="<?php echo $s2_link ?>" class="button is-link is-outlined is-rounded is-medium is-uppercase">
                                 get in touch</span></a>
                         </div>
+                        <?php endif;?>
                     </div>
                 </div>
             </div>
