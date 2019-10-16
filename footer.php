@@ -68,7 +68,7 @@ $embed = myprefix_get_theme_option('embed');
             </div>
 
         <small class="has-text-centered is-fullwidth is-block"><?php echo $copyright; ?></small>
-test
+
     </div>
 
 </footer>
