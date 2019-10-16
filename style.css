@@ -2156,6 +2156,9 @@ a.navbar-item {
 .slant {
   position: relative;
   z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .slant {
+      padding-bottom: 2rem; } }
   .slant:after {
     content: "";
     position: absolute; }
