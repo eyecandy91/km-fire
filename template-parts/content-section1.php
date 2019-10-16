@@ -10,7 +10,7 @@ $s1_link = get_sub_field('section_1_link');
         <div class="container">
             <div class="columns">
                 <div data-aos="fade-left" class="column is-full-mobile is-half-tablet is-half-desktop">
-                    <div class="column-is-centered content">
+                    <div class="column-is-centered content circle-list">
                         <?php if (isset($s1_title)): ?>
                             <h3 class="title fancy is-3 is-size-4-mobile is-uppercase">
                                 <?php echo $s1_title ?>

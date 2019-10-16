@@ -816,6 +816,10 @@ a.box:active {
     margin-bottom: 1rem;
     padding: 20px; }
 
+.content.circle-list ul,
+.content.circle-list li {
+  list-style: disc outside; }
+
 .icon {
   align-items: center;
   display: inline-flex;

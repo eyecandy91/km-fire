@@ -17,7 +17,7 @@ $s2_link = get_sub_field('section_2_link');
                     </div>
                 </div>
                 <div data-aos="fade-right" class="column is-full-mobile is-half-tablet is-half-desktop">
-                    <div class="column-is-centered content">
+                    <div class="column-is-centered content circle-list">
                         <?php if (isset($s2_title)): ?>
                             <h3 class="title fancy is-3 is-size-4-mobile is-uppercase">
                                 <?php echo $s2_title ?>
