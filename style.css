@@ -1943,7 +1943,7 @@ a.navbar-item {
   .hero img {
     border-radius: 10px; }
   .hero #main {
-    padding: 0 2rem;
+    padding: 0 0.2rem;
     max-width: 1000px; }
     .hero #main h1,
     .hero #main .subtitle {
@@ -2119,11 +2119,11 @@ a.navbar-item {
   height: 100%;
   overflow: hidden;
   object-fit: cover;
-  -webkit-filter: grayscale(50%);
-  -moz-filter: grayscale(50%);
-  -ms-filter: grayscale(50%);
-  -o-filter: grayscale(50%);
-  filter: grayscale(50%);
+  -webkit-filter: grayscale(30%);
+  -moz-filter: grayscale(30%);
+  -ms-filter: grayscale(30%);
+  -o-filter: grayscale(30%);
+  filter: grayscale(30%);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2133,8 +2133,7 @@ a.navbar-item {
     background-position: center;
     z-index: -1; }
   .fullscreen-bg div {
-    background: rgba(0, 0, 0, 0.7);
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAIUlEQVQYV2NkYGD4z8DAwMiABFA4MHFkQbgOgiphuv8DAJqbAwX2ST3+AAAAAElFTkSuQmCC) repeat rgba(0, 0, 0, 0.7);
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAIUlEQVQYV2NkYGD4z8DAwMiABFA4MHFkQbgOgiphuv8DAJqbAwX2ST3+AAAAAElFTkSuQmCC) repeat rgba(0, 0, 0, 0.4);
     min-height: 100%;
     width: 100%;
     position: absolute;

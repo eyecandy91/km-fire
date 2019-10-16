@@ -30,7 +30,7 @@ $embed = myprefix_get_theme_option('embed');
                 <div class="content has-text-left">
                     <ul>
                         <li class="title is-4"><i class="fas fa-envelope has-text-danger"></i>Contact us</li>
-                        <li>If you have any queries at all please don't hesitate to contact us on:</li>
+                        <li>If you have any queries please don't hesitate to contact us on:</li>
                         <li><a href="tel:<?php echo $telephone; ?>"><i
                                     class="fas fa-phone has-text-danger"></i><?php echo $telephone; ?></a></li>
                         <li><a href="mailto:<?php echo $email; ?>?Subject=I'm%20interested" target="_blank"><i
